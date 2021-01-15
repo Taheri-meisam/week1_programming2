@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeweek1_programming2_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xE07A9FE2,
+				0xCB6A68F9,
 				0x6EDE884F,
 				METADATA_PARAMS(nullptr, 0)
 			};

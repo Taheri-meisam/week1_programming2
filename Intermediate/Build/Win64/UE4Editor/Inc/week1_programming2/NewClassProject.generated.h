@@ -17,13 +17,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define week1_programming2_Source_week1_programming2_Public_NewClassProject_h_12_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSetnumber); \
-	DECLARE_FUNCTION(execgetNumber);
+	DECLARE_FUNCTION(execgetNumber); \
+	DECLARE_FUNCTION(exec_getlocation);
 
 
 #define week1_programming2_Source_week1_programming2_Public_NewClassProject_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSetnumber); \
-	DECLARE_FUNCTION(execgetNumber);
+	DECLARE_FUNCTION(execgetNumber); \
+	DECLARE_FUNCTION(exec_getlocation);
 
 
 #define week1_programming2_Source_week1_programming2_Public_NewClassProject_h_12_INCLASS_NO_PURE_DECLS \

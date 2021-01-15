@@ -19,7 +19,10 @@ public:
 		float newVal = 1.2;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MyVariables")
 		bool tags = false;
-
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		AActor* actor;
+	UFUNCTION()
+		void _getlocation();
 
 
 protected:

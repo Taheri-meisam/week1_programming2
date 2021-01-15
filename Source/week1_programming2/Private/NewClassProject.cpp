@@ -14,6 +14,20 @@ UNewClassProject::UNewClassProject()
 }
 
 
+void UNewClassProject::_getlocation()
+{
+	FVector MyLocation = actor->GetTargetLocation();
+	FString msg;
+	msg.Append("X: ");
+	msg.AppendInt(MyLocation.X);
+	msg.Append("Y: ");
+	msg.AppendInt(MyLocation.Y);
+	msg.Append("Z: ");
+	msg.AppendInt(MyLocation.Z);
+	UE_LOG(LogTemp, Warning, TEXT("%s"), "test ");
+	Prints(msg,true, FColor::Blue);
+}
+
 void UNewClassProject::BeginPlay()
 {
 	Super::BeginPlay();
@@ -28,7 +42,7 @@ void UNewClassProject::BeginPlay()
 void UNewClassProject::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
+	_getlocation();
 
 	
 }
