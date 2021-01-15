@@ -164,9 +164,9 @@ void EmptyLinkFunctionForGeneratedCodeNewClassProject() {}
 		static void NewProp_tags_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_tags;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_actor_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_myactor_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_actor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_myactor;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -214,17 +214,17 @@ void EmptyLinkFunctionForGeneratedCodeNewClassProject() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UNewClassProject_Statics::NewProp_tags = { "tags", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UNewClassProject), &Z_Construct_UClass_UNewClassProject_Statics::NewProp_tags_SetBit, METADATA_PARAMS(Z_Construct_UClass_UNewClassProject_Statics::NewProp_tags_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNewClassProject_Statics::NewProp_tags_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UNewClassProject_Statics::NewProp_actor_MetaData[] = {
-		{ "Category", "NewClassProject" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UNewClassProject_Statics::NewProp_myactor_MetaData[] = {
+		{ "Category", "Actors" },
 		{ "ModuleRelativePath", "Public/NewClassProject.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UNewClassProject_Statics::NewProp_actor = { "actor", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UNewClassProject, actor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UNewClassProject_Statics::NewProp_actor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNewClassProject_Statics::NewProp_actor_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UNewClassProject_Statics::NewProp_myactor = { "myactor", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UNewClassProject, myactor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UNewClassProject_Statics::NewProp_myactor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNewClassProject_Statics::NewProp_myactor_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UNewClassProject_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNewClassProject_Statics::NewProp_HP,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNewClassProject_Statics::NewProp_newVal,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNewClassProject_Statics::NewProp_tags,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNewClassProject_Statics::NewProp_actor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNewClassProject_Statics::NewProp_myactor,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UNewClassProject_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UNewClassProject>::IsAbstract,
@@ -253,7 +253,7 @@ void EmptyLinkFunctionForGeneratedCodeNewClassProject() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UNewClassProject, 4032576719);
+	IMPLEMENT_CLASS(UNewClassProject, 1436212847);
 	template<> WEEK1_PROGRAMMING2_API UClass* StaticClass<UNewClassProject>()
 	{
 		return UNewClassProject::StaticClass();

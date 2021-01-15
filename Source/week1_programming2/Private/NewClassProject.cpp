@@ -16,16 +16,36 @@ UNewClassProject::UNewClassProject()
 
 void UNewClassProject::_getlocation()
 {
-	FVector MyLocation = actor->GetTargetLocation();
+	if (myactor == nullptr)
+		return;
+	FVector MyLocation = myactor->GetTargetLocation();
+	FRotator TheRotation = myactor->GetActorRotation();
+	FVector TheScale = myactor->GetActorScale();
+
 	FString msg;
-	msg.Append("X: ");
+	msg.Append("\n Location  :");
+	msg.Append("\n X: ");
 	msg.AppendInt(MyLocation.X);
-	msg.Append("Y: ");
+	msg.Append("\n Y: ");
 	msg.AppendInt(MyLocation.Y);
-	msg.Append("Z: ");
+	msg.Append("\n Z: ");
 	msg.AppendInt(MyLocation.Z);
-	UE_LOG(LogTemp, Warning, TEXT("%s"), "test ");
-	Prints(msg,true, FColor::Blue);
+	msg.Append("\n rotation: ");
+	msg.Append("\n Pitch : ");
+	msg.AppendInt(TheRotation.Pitch);
+	msg.Append("\n Roll: ");
+	msg.AppendInt(TheRotation.Roll);
+	msg.Append("\n Yaw: ");
+	msg.AppendInt(TheRotation.Yaw);
+	msg.Append("\n Scale : ");
+	msg.Append("\n XAxis : ");
+	msg.Append(FString::SanitizeFloat(TheScale.X));
+	msg.Append("\n YAxis : ");
+	msg.Append(FString::SanitizeFloat(TheScale.Y));
+	msg.Append("\n ZAxis: ");
+	msg.Append(FString::SanitizeFloat(TheScale.Z));
+
+	Prints(msg,true,FColor::Black);
 }
 
 void UNewClassProject::BeginPlay()
@@ -34,7 +54,7 @@ void UNewClassProject::BeginPlay()
 	Setnumber(300);
 	FString Message;
 	Message.AppendInt(mynumber);
-	Prints(FString::FromInt(mynumber),false, FColor::Red);
+	//Prints(FString::FromInt(mynumber),false, FColor::Red);
 	Prints(Message,false);
 }
 

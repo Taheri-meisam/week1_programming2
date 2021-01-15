@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\week1_programming2.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3FB4EB97-C8F6-44EA-A9C7-C657F8C464E8}</UniqueIdentifier>
+      <UniqueIdentifier>{D885747D-E1BA-40D8-ABEC-F7756E7302F1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\week1_programming2.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\week1_programming2Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{889E049B-735F-4B86-B3C7-EE19E184445E}</UniqueIdentifier>
+      <UniqueIdentifier>{93439A2D-3E11-4008-8A83-1F8C8065C6B1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +26,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\week1_programming2">
-      <UniqueIdentifier>{764EA21D-E8AC-4513-93DC-57F54E469139}</UniqueIdentifier>
+      <UniqueIdentifier>{94532887-AD13-43DB-91F2-BE2144F926BA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\week1_programming2\week1_programming2.Build.cs">
       <Filter>Source\week1_programming2</Filter>
@@ -42,15 +44,27 @@
       <Filter>Source\week1_programming2</Filter>
     </ClInclude>
     <Filter Include="Source\week1_programming2\Private">
-      <UniqueIdentifier>{57A1AC20-A028-49ED-AC11-04AE5A554B9A}</UniqueIdentifier>
+      <UniqueIdentifier>{16AF2227-7C98-41BC-BCBD-3F1E324CA593}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\week1_programming2\Private\MyPlayer.cpp">
+      <Filter>Source\week1_programming2\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\week1_programming2\Private\NewClassProject.cpp">
       <Filter>Source\week1_programming2\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\week1_programming2\Private\TestClass.cpp">
+      <Filter>Source\week1_programming2\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\week1_programming2\Public">
-      <UniqueIdentifier>{F04BB746-0FC8-45D3-B568-FAE5EDC273E9}</UniqueIdentifier>
+      <UniqueIdentifier>{21D97E9C-8DCB-49C5-B433-F743AD8C67D4}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\week1_programming2\Public\MyPlayer.h">
+      <Filter>Source\week1_programming2\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\week1_programming2\Public\NewClassProject.h">
+      <Filter>Source\week1_programming2\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\week1_programming2\Public\TestClass.h">
       <Filter>Source\week1_programming2\Public</Filter>
     </ClInclude>
   </ItemGroup>

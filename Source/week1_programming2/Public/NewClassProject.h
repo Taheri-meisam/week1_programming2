@@ -19,8 +19,8 @@ public:
 		float newVal = 1.2;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MyVariables")
 		bool tags = false;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		AActor* actor;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite , Category = " Actors")
+		AActor* myactor = nullptr;
 	UFUNCTION()
 		void _getlocation();
 
