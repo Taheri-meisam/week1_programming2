@@ -1,0 +1,9 @@
+C:\Users\VR_MT\Documents\Unreal Projects\week1_programming2\Intermediate\Build\Win64\UE4Editor\Development\week1_programming2\Definitions.week1_programming2.h
+E:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+E:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\VR_MT\Documents\Unreal Projects\week1_programming2\Source\week1_programming2/week1_programming2GameModeBase.h
+E:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+E:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+E:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+E:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\VR_MT\Documents\Unreal Projects\week1_programming2\Intermediate\Build\Win64\UE4Editor\Inc\week1_programming2\week1_programming2GameModeBase.generated.h

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "week1_programming2",
+			"Path": "C:\\Users\\VR_MT\\Documents\\Unreal Projects\\week1_programming2\\Source\\week1_programming2.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "week1_programming2Editor",
+			"Path": "C:\\Users\\VR_MT\\Documents\\Unreal Projects\\week1_programming2\\Source\\week1_programming2Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
